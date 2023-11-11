@@ -1,0 +1,119 @@
+/* HOME */
+.home_main .banner {
+    background: url("../../assets/img/slide5 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.home_main h2 {
+    font-family: var(--font4);
+    font-size: 38px;
+    align-self: center;
+
+}
+
+.home_main .card h3,
+.home_main .card span {
+    font-family: var(--font3);
+    font-size: 18px;
+}
+
+.home_main .aproveite,
+.home_main .mais_vendidos {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    
+
+
+.home_main .mais_vendidos>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+}
+
+.home_main .mais_vendidos > a {
+    align-self: center;
+    text-decoration: none;
+    color: var(--cor3);
+    font-family: var(--font1);
+    font-weight: 600;
+}
+
+.home_main .mais_vendidos > a:hover {
+    text-shadow: 0px 0px 2px #ffacb3;
+    transition: 500ms;
+}
+
+
+.home_main .mais_vendidos .card {
+    text-decoration: none;
+    color: #5B3331;
+    transition: 300ms;
+    margin: 100px 0 20px;
+}
+
+.home_main .mais_vendidos .card:hover{
+    scale: 1.05;
+    border-radius: 10px;
+    box-shadow:
+        1px 1px 1px #000, 
+        0px 0px 20px #ff828c;
+}
+
+.home_main .mais_vendidos>div>.card *:not(:first-child) {
+    margin: 10px;
+}
+
+.home_main .aproveite{
+    gap: 100px;
+}
+
+.home_main .aproveite>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.home_main .aproveite .card {
+    width: 260px;
+    font-family: var(--font2);
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.home_main .aproveite .card h3 {
+    font-size: 22px;
+}
+
+.home_main .aproveite .card a {
+    font-family: var(--font2);
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    background-color: var(--cor3);
+    align-self: center;
+    text-shadow: 0px 0px 10px #ffacb3;
+    border: solid 1px #fff;
+    box-shadow: 0px 0px 2px #ffacb3;
+}
+
+.home_main .aproveite .card a:hover {
+    background: radial-gradient(#ffacb3d0, var(--cor3));
+    box-shadow:
+        1px 1px 1px #000, 
+        0px 0px 15px #ffacb3;
+    scale: 1.05;
+    transition: 300ms;
+}

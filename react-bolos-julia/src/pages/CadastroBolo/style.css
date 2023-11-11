@@ -1,0 +1,89 @@
+/* CADASTRO */
+.cadastro {
+    width: 100%;
+    background-image: url("../../assets/img/cake-wallpaper.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.cadastro .glass {
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: solid 1px #fff;
+    box-shadow: 30px 30px 80px #000000;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-family: var(--font2);
+    font-size: 18px;
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cadastro h1 {
+    font-family: var(--font1);
+    font-size: 38px;
+}
+
+.cadastro form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.cadastro form>div:not(:last-child) {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.cadastro form>div textarea {
+    height: 100px;
+}
+
+.cadastro .input_estilo {
+    padding: 8px;
+    background-color: #ffffff30;
+    border-radius: 10px;
+    border: solid 1px #fff;
+    resize: none;
+    box-shadow: 5px 5px 15px #00000020;
+    font-size: 16px;
+}
+
+.cadastro .btn {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: solid 1px #fff;
+    font-size: 18px;
+    align-self: center;
+    margin-top: 30px;
+    font-family: var(--font3);
+    font-weight: 500;
+    background-color: #ffffff20;
+    color: #fff;
+    text-shadow: 
+        /* 1px 1px 2px var(--cor3), */
+        0 0 20px #AED9E0;
+    /* transition: 1000ms; */
+}
+
+.cadastro .btn:hover {
+    /* background-color: #ff620020; */
+    background: radial-gradient(#ff8892, #ffffff20);
+    box-shadow:
+        1px 1px 2px #000, 
+        0px 0px 10px #ffacb3;
+    scale: 1.05;
+    transition: 300ms;
+}

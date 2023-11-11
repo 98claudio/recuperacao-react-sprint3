@@ -1,0 +1,51 @@
+#card {
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+    font-family: var(--font2);
+    padding-right: 20px;
+    min-height: 200px;
+    width: 90%;
+    max-width: 850px;
+}
+
+#card:hover {
+    scale: 1.05;
+    border-radius: 10px;
+    box-shadow:
+        1px 1px 1px #000,
+        0px 0px 20px #ff828c;
+    transition: 300ms;
+}
+
+#card img {
+    height: 200px;
+}
+
+#card h2 {
+    font-family: var(--font1);
+}
+
+#card span {
+    font-family: var(--font3);
+}
+
+#card .card_bolo_texto {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    justify-content: space-between;
+    width: 75%;
+}
+
+#card .card_bolo_texto>span {
+    align-self: flex-end;
+
+}
+
+#card .card_bolo_texto>div>span {
+    margin-bottom: 5px;
+    font-weight: 600;
+    display: block;
+    font-family: var(--font2);
+}

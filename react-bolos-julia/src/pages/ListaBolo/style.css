@@ -1,0 +1,14 @@
+/* BOLOS */
+.lista{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.lista h1{
+    font-family: var(--font4);
+    font-size: 38px;
+    align-self: center;
+}
+
